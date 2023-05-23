@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>MedService</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-wrapper">
+            <div class="container">
+                <div class="header">
+                    <div class="header__row">
+                        <div class="header__column">
+                            <div class="header__location">
+                                Липецк
+                            </div>
+                        </div>
+                        <div class="header__column">
+                            <div class="header__logo">
+                                <img src="images/logo.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="header__column">
+                            <nav class="header__menu">
+                                <ul class="user-nav">
+                                    <li class="user-nav__item" id="link-enter" >
+                                        <a class="user-nav__link button" href="#">
+                                            Войти
+                                        </a>
+                                        <div class="form-popup" id="myForm">
+                                            <form action="#" class="form-container">
+                                                <div class="choose-login">
+                                                    <h3 class="title">Пациент</h3>
+                                                    <div class="subtitle">
+                                                        Делитесь отзывами о врачах, записывайтесь на приём онлайн
+                                                    </div>
+                                                    <button class="button button-blue">
+                                                        <a href="#">Войти</a>
+                                                    </button>
+                                                </div>
+                                                <div class="choose-login">
+                                                    <h3 class="title">Врач</h3>
+                                                    <div class="subtitle">
+                                                        Просматривайте свои записи, рассказывайте о ваших услугах
+                                                    </div>
+                                                    <button class="button button-blue">
+                                                        <a href="#">Войти</a>
+                                                    </button>
+                                                </div>
+                                                <div class="choose-login">
+                                                    <h3 class="title">Клиника</h3>
+                                                    <div class="subtitle">
+                                                        Добавляйте новых врачей, рассказывайте о себе
+                                                    </div>
+                                                    <button class="button button-blue">
+                                                        <a href="#">Войти</a>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-wrapper">
+                <div class="container">
+                    <div class="search">
+                        <div class="search__row">
+                            <div class="search__input-wrapper">
+                                <input class="search__input" type="search" placeholder="Врачи, клиники, услуги">
+                            </div>
+                            <button class="search__button b-button-red">Найти</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="intro-stat__wrapper">
+            <div class="container">
+                <div class="intro-stat">
+                    <div class="intro-stat__item">
+                        <div class="intro-stat__img background-review"></div>
+                        <div class="intro-stat__text">
+                            <div class="intro-stat__title">3&nbsp;217&nbsp;741</div>
+                            <div class="intro-stat__subtitle">отзывов</div>
+                        </div>
+                    </div>
+                    <div class="intro-stat__item">
+                        <div class="intro-stat__img background-record"></div>
+                        <div class="intro-stat__text">
+                            <div class="intro-stat__title">3&nbsp;217&nbsp;741</div>
+                            <div class="intro-stat__subtitle">записей на прием</div>
+                        </div>
+                    </div>
+                    <div class="intro-stat__item">
+                        <div class="intro-stat__img background-doctors"></div>
+                        <div class="intro-stat__text">
+                            <div class="intro-stat__title">3&nbsp;217&nbsp;741</div>
+                            <div class="intro-stat__subtitle">врачей</div>
+                        </div>
+                    </div>
+                    <div class="intro-stat__item">
+                        <div class="intro-stat__img background-clinic"></div>
+                        <div class="intro-stat__text">
+                            <div class="intro-stat__title">3&nbsp;217&nbsp;741</div>
+                            <div class="intro-stat__subtitle">клиник</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <main class="main-wrapper">
+            <div class="container">
+                <div class="card-info__wrapper">
+                    <div class="card-info">
+                        <div class="card-info__header">
+                            <div class="card-info__text">Врачи</div>
+                            <div class="card-info__number">14536</div>
+                        </div>
+                        <div class="card-info__main">
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Гинеколог</div>
+                                <div class="card-info__number">6137</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Дерматолог</div>
+                                <div class="card-info__number">3150</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Невролог</div>
+                                <div class="card-info__number">3150</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Педиатор</div>
+                                <div class="card-info__number">3150</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Стоматолог</div>
+                                <div class="card-info__number">3150</div>
+                            </div>
+                        </div>
+                        <div class="card-info__footer">
+                            <button class="card-info__button button">Все врачи</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-info__header">
+                            <div class="card-info__text">Клиники</div>
+                            <div class="card-info__number">526</div>
+                        </div>
+                        <div class="card-info__main">
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Клиника</div>
+                                <div class="card-info__number">57</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Стоматология</div>
+                                <div class="card-info__number">136</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Больница</div>
+                                <div class="card-info__number">25</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Поликлиника</div>
+                                <div class="card-info__number">47</div>
+                            </div>
+                            <div class="card-info__main-row">
+                                <div class="card-info__text">Роддом</div>
+                                <div class="card-info__number">6</div>
+                            </div>
+                        </div>
+                        <div class="card-info__footer">
+                            <button class="card-info__button button">Все врачи</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer-wrapper">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const myForm = document.querySelector('#myForm');
+        const enterLink = document.querySelector('#link-enter');
+
+        enterLink.addEventListener('click', () => {
+            openForm();
+        });
+
+        document.body.addEventListener('click', (event) => {
+            if (!enterLink.contains(event.target)) {
+                closeForm();
+            }
+        });
+
+        myForm.addEventListener('click', (event) => {
+            event.stopPropagation();
+        });
+
+        function openForm() {
+            myForm.style.display = "block";
+        }
+
+        function closeForm() {
+            myForm.style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="clinicsList.css">
+  <title>Clinics</title>
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header-wrapper">
+    <div class="container">
+      <div class="header">
+        <div class="header__row">
+          <div class="header__column">
+            <div class="header__location">
+              Липецк
+            </div>
+          </div>
+          <div class="header__column">
+            <div class="header__logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+          </div>
+          <div class="header__column">
+            <nav class="header__menu">
+              <ul class="user-nav">
+                <li class="user-nav__item" id="link-enter" >
+                  <a class="user-nav__link button" href="#">
+                    Войти
+                  </a>
+                  <div class="form-popup" id="myForm">
+                    <form action="#" class="form-container">
+                      <div class="choose-login">
+                        <h3 class="title">Пациент</h3>
+                        <div class="subtitle">
+                          Делитесь отзывами о врачах, записывайтесь на приём онлайн
+                        </div>
+                        <button class="button button-blue">
+                          <a href="#">Войти</a>
+                        </button>
+                      </div>
+                      <div class="choose-login">
+                        <h3 class="title">Врач или клиника</h3>
+                        <div class="subtitle">
+                          Просматривайте свои записи, рассказывайте о ваших услугах
+                        </div>
+                        <button class="button button-blue">
+                          <a href="#">Войти</a>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-wrapper">
+      <div class="container">
+        <div class="search">
+          <div class="search__row">
+            <div class="search__input-wrapper">
+              <input class="search__input" type="search" placeholder="Врачи, клиники, услуги">
+            </div>
+            <button class="search__button b-button-red">Найти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-wrapper">
+    <div class="container">
+      <div class="card-clinic__container">
+        <div class="card-doctor card-clinic">
+          <div class="card-doctor__row">
+            <div class="card-doctor__avatar card-clinic__avatar">
+              <div class="card-doctor__profile">
+                <div class="card-doctor__img-wrapper">
+                  <div class="card-doctor__favorite-wrapper">
+                    <div class="card-doctor__favorite-icon"></div>
+                  </div>
+                  <img src="images/avatar-clinic.png" alt="">
+                </div>
+                <div class="card-doctor__stars-container">
+                  <div class="rating-result">
+                    <span class="active"></span>
+                    <span class="active"></span>
+                    <span class="active"></span>
+                    <span class="active"></span>
+                    <span></span>
+                  </div>
+                </div>
+                <a href="#" class="card-doctor__link-review">
+                  27&nbsp;отзывов
+                </a>
+              </div>
+            </div>
+            <div class="card-doctor__main-content">
+              <div class="card-doctor__info">
+                <div class="card-doctor__name">
+                  <a href="#" class="card-doctor__name-link clinic__name-link">
+                    Стоматология «Винир»
+                  </a>
+                </div>
+                <div class="card-doctor__spec card-clinic__spec">Стоматология</div>
+                <div class="card-doctor__experience card-clinic__count-doctors">17 врачей</div>
+                <div class="card-clinic__contacts-wrapper">
+                  <div class="card-clinic__contacts-row">
+                    <div class="card-clinic__icon-contact">
+                      <img src="images/icon-phone.svg" alt="">
+                    </div>
+                    <div class="card-clinic__contact-text">Открыто до 20:00</div>
+                  </div>
+                  <div class="card-clinic__contacts-row">
+                    <div class="card-clinic__icon-contact">
+                      <img src="images/icon-phone.svg" alt="">
+                    </div>
+                    <div class="card-clinic__contact-text">ул. Соколовая, д. 10/16</div>
+                  </div>
+                  <div class="card-clinic__contacts-row">
+                    <div class="card-clinic__icon-contact">
+                      <img src="images/icon-phone.svg" alt="">
+                    </div>
+                    <div class="card-clinic__contact-text">
+                      +7 (8452) 49-27-84
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-clinic__description-block">
+              <div class="card-clinic__description-text text_subtitle-2">Стоматологическая клиника «Винир» города Саратова оказывает весь спектр профильных услуг. Применятся щадящие методики работы и качественные материалы. Деятельность стоматологической клиники «Винир» лицензирована.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

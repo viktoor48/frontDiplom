@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="appointment-doctor.css">
+    <title>Appointment</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header-wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__row">
+                    <div class="header__column">
+                        <div class="header__location">
+                            Липецк
+                        </div>
+                    </div>
+                    <div class="header__column">
+                        <div class="header__logo">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="header__column">
+                        <nav class="header__menu">
+                            <ul class="user-nav">
+                                <li class="user-nav__item" id="link-enter">
+                                    <a class="user-nav__link button" href="#">
+                                        Войти
+                                    </a>
+                                    <div class="form-popup" id="myForm">
+                                        <form action="#" class="form-container">
+                                            <div class="choose-login">
+                                                <h3 class="title">Пациент</h3>
+                                                <div class="subtitle">
+                                                    Делитесь отзывами о врачах, записывайтесь на приём онлайн
+                                                </div>
+                                                <button class="button button-blue">
+                                                    <a href="#">Войти</a>
+                                                </button>
+                                            </div>
+                                            <div class="choose-login">
+                                                <h3 class="title">Врач или клиника</h3>
+                                                <div class="subtitle">
+                                                    Просматривайте свои записи, рассказывайте о ваших услугах
+                                                </div>
+                                                <button class="button button-blue">
+                                                    <a href="#">Войти</a>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-wrapper">
+            <div class="container">
+                <div class="search">
+                    <div class="search__row">
+                        <div class="search__input-wrapper">
+                            <input class="search__input" type="search" placeholder="Врачи, клиники, услуги">
+                        </div>
+                        <button class="search__button b-button-red">Найти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="container">
+            <div class="appointment-doctor">
+                <h1 class="appointment-doctor__title">Запись на приём к врачу</h1>
+                <div class="appointment-doctor__inner">
+                    <form action="#" class="appointment-doctor__main">
+                        <div class="appointment-doctor__header">
+                            <div class="appointment-doctor__img-wrapper">
+                                <img src="images/avatarDoctor.png" alt="">
+                            </div>
+                            <div class="appointment-doctor__info-doctor">
+                                <a href="#" class="appointment-doctor__name text_subtitle-1">Молчанова Валентина Ивановна</a>
+                                <div class="appointment-doctor__description text_subtitle-2">Стаж 16 лет • 1 категория</div>
+                            </div>
+                        </div>
+                        <div class="appointment-doctor__clinic-info">
+                            <div class="appointment-doctor__clinic-name text_subtitle-1">«Лечебно-диагностический центр №1» на Коммунальной</div>
+                            <div class="appointment-doctor__clinic-address text_subtitle-2">пл. Коммунальная, д. 9</div>
+                        </div>
+                        <div class="appointment-doctor__speciality">
+                            <div class="appointment-doctor__speciality-row">
+                                <label class="appointment-doctor__speciality-label active">
+                                    <input type="radio" checked name="radio-spec" value="узи" class="appointment-doctor__speciality-radio">
+                                </label>
+                                <div class="appointment-doctor__label-text">
+                                    <div class="appointment-doctor__label-text-row">
+                                        <div class="appointment-doctor__label-title">Врач УЗИ</div>
+                                        <div class="appointment-doctor__label-price">800 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="appointment-doctor__speciality-row">
+                                <label class="appointment-doctor__speciality-label">
+                                    <input type="radio" name="radio-spec" value="гинеколог" class="appointment-doctor__speciality-radio">
+                                </label>
+                                <div class="appointment-doctor__label-text">
+                                    <div class="appointment-doctor__label-text-row">
+                                        <div class="appointment-doctor__label-title">Гинеколог</div>
+                                        <div class="appointment-doctor__label-price">800 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="appointment-doctor__calendar-wrapper">
+                            <div class="appointment-doctor__calendar">
+                                <div class="appointment-doctor__calendar-title text_subtitle-1">13 мая (сб), 08:00</div>
+                            </div>
+                        </div>
+                        <div class="appointment-doctor__inputs-wrapper">
+                            <div class="appointment-doctor__field-wrapper">
+                                <div class="appointment-doctor__input-wrapper">
+                                    <input type="text" placeholder="Фамилия" class="appointment-doctor__input">
+                                </div>
+                                <div class="messages-wrapper">
+                                    <div class="messages__message error--text"></div>
+                                </div>
+                            </div>
+                            <div class="appointment-doctor__field-wrapper">
+                                <div class="appointment-doctor__input-wrapper">
+                                    <input type="text" placeholder="Фамилия" class="appointment-doctor__input">
+                                </div>
+                                <div class="messages-wrapper">
+                                    <div class="messages__message error--text"></div>
+                                </div>
+                            </div>
+                            <div class="appointment-doctor__field-wrapper">
+                                <div class="appointment-doctor__input-wrapper input-error">
+                                    <input type="text" placeholder="Фамилия" name="name" class="appointment-doctor__input">
+                                </div>
+                                <div class="messages-wrapper">
+                                    <div class="messages__message error--text">Укажите фамилию</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="appointment-doctor__btn-wrapper">
+                            <button class="appointment-doctor__btn b-button-blue" type="submit">Записаться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

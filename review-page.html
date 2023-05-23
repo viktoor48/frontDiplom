@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="review-page.css">
+  <link rel="stylesheet" href="form.css">
+  <title>Review</title>
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header-wrapper">
+    <div class="container">
+      <div class="header">
+        <div class="header__row">
+          <div class="header__column">
+            <div class="header__location">
+              Липецк
+            </div>
+          </div>
+          <div class="header__column">
+            <div class="header__logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+          </div>
+          <div class="header__column">
+            <nav class="header__menu">
+              <ul class="user-nav">
+                <li class="user-nav__item" id="link-enter" >
+                  <a class="user-nav__link button" href="#">
+                    Войти
+                  </a>
+                  <div class="form-popup" id="myForm">
+                    <form action="#" class="form-container">
+                      <div class="choose-login">
+                        <h3 class="title">Пациент</h3>
+                        <div class="subtitle">
+                          Делитесь отзывами о врачах, записывайтесь на приём онлайн
+                        </div>
+                        <button class="button button-blue">
+                          <a href="#">Войти</a>
+                        </button>
+                      </div>
+                      <div class="choose-login">
+                        <h3 class="title">Врач или клиника</h3>
+                        <div class="subtitle">
+                          Просматривайте свои записи, рассказывайте о ваших услугах
+                        </div>
+                        <button class="button button-blue">
+                          <a href="#">Войти</a>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-wrapper">
+      <div class="container">
+        <div class="search">
+          <div class="search__row">
+            <div class="search__input-wrapper">
+              <input class="search__input" type="search" placeholder="Врачи, клиники, услуги">
+            </div>
+            <button class="search__button b-button-red">Найти</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-wrapper">
+    <div class="container">
+      <div class="review__container">
+        <div class="review__title-row">
+          <h1 class="big-title">Оставить отзыв о <span class="big-title text-grey">Рубцова Ольга Юрьевна</span></h1>
+        </div>
+        <div class="review__form-container">
+          <form action="#" class="review__form">
+            <div class="review__row-stars">
+              <div class="review__stars-title-wrapper">
+                <div class="review__stars-title">Тщательность обследования</div>
+                <div class="review__stars-error">Поставьте оценку</div>
+              </div>
+              <div class="rating-area">
+                <input type="radio" id="star-5" name="rating-view" value="5">
+                <label for="star-5" title="Оценка «5»"></label>
+                <input type="radio" id="star-4" name="rating-view" value="4">
+                <label for="star-4" title="Оценка «4»"></label>
+                <input type="radio" id="star-3" name="rating-view" value="3">
+                <label for="star-3" title="Оценка «3»"></label>
+                <input type="radio" id="star-2" name="rating-view" value="2">
+                <label for="star-2" title="Оценка «2»"></label>
+                <input type="radio" id="star-1" name="rating-view" value="1">
+                <label for="star-1" title="Оценка «1»"></label>
+              </div>
+            </div>
+            <div class="review__row-stars">
+              <div class="review__stars-title-wrapper">
+                <div class="review__stars-title">Эффективность лечения</div>
+                <div class="review__stars-error">Поставьте оценку</div>
+              </div>
+              <div class="rating-area">
+                <input type="radio" id="star-5-rating-efficiency" name="rating-efficiency" value="5">
+                <label for="star-5-rating-efficiency" title="Оценка «5»"></label>
+                <input type="radio" id="star-4-rating-efficiency" name="rating-efficiency" value="4">
+                <label for="star-4-rating-efficiency" title="Оценка «4»"></label>
+                <input type="radio" id="star-3-rating-efficiency" name="rating-efficiency" value="3">
+                <label for="star-3-rating-efficiency" title="Оценка «3»"></label>
+                <input type="radio" id="star-2-rating-efficiency" name="rating-efficiency" value="2">
+                <label for="star-2-rating-efficiency" title="Оценка «2»"></label>
+                <input type="radio" id="star-1-rating-efficiency" name="rating-efficiency" value="1">
+                <label for="star-1-rating-efficiency" title="Оценка «1»"></label>
+              </div>
+            </div>
+            <div class="review__row-stars">
+              <div class="review__stars-title-wrapper">
+                <div class="review__stars-title">Посоветуете ли Вы врача</div>
+                <div class="review__stars-error">Поставьте оценку</div>
+              </div>
+              <div class="rating-area">
+                <input type="radio" id="star-5-rating-recommend" name="rating-recommend" value="5">
+                <label for="star-5-rating-recommend" title="Оценка «5»"></label>
+                <input type="radio" id="star-4-rating-recommend" name="rating-recommend" value="4">
+                <label for="star-4-rating-recommend" title="Оценка «4»"></label>
+                <input type="radio" id="star-3-rating-recommend" name="rating-recommend" value="3">
+                <label for="star-3-rating-recommend" title="Оценка «3»"></label>
+                <input type="radio" id="star-2-rating-recommend" name="rating-recommend" value="2">
+                <label for="star-2-rating-recommend" title="Оценка «2»"></label>
+                <input type="radio" id="star-1-rating-recommend" name="rating-recommend" value="1">
+                <label for="star-1-rating-recommend" title="Оценка «1»"></label>
+              </div>
+            </div>
+            <div class="form__field-wrapper">
+              <label for="select-clinic" class="label-input text_subtitle-1 text-grey">Клиника</label>
+              <div class="input-wrapper">
+                <input id="select-clinic" type="text" placeholder="Выберите клинику" required class="input" list="clinics-list">
+                <datalist id="clinics-list">
+                  <option value="Аллерголог">Аллерголог</option>
+                  <option value="Анестезиолог-реаниматолог">Анестезиолог-реаниматолог</option>
+                  <option value="Эпидемиолог">Эпидемиолог</option>
+                  <option value="Кардиолог">Кардиолог</option>
+                  <option value="Онколог">Онколог</option>
+                  <option value="Травматолог-ортопед">Травматолог-ортопед</option>
+                  <option value="Физиотерапевт">Физиотерапевт</option>
+                </datalist>
+              </div>
+              <div class="messages-wrapper">
+                <div class="messages__message error--text"></div>
+              </div>
+            </div>
+            <div class="form__field-wrapper">
+              <label for="select-visit-date" class="label-input text_subtitle-1 text-grey">Дата посещения</label>
+              <div class="input-wrapper">
+                <input id="select-visit-date" type="date" placeholder="Выберите клинику" required class="input" list="clinics-list">
+              </div>
+              <div class="messages-wrapper">
+                <div class="messages__message error--text"></div>
+              </div>
+            </div>
+            <div class="form__field-wrapper">
+              <label for="textarea-like" class="label-input text_subtitle-1 text-grey">Понравилось</label>
+              <div class="input-wrapper">
+                <textarea id="textarea-like" type="date" placeholder="Здесь можно указать главные плюсы" required class="input" list="clinics-list"></textarea>
+              </div>
+              <div class="messages-wrapper">
+                <div class="messages__message error--text"></div>
+              </div>
+            </div>
+            <div class="form__field-wrapper">
+              <label for="textarea-dislike" class="label-input text_subtitle-1 text-grey">Не понравилось</label>
+              <div class="input-wrapper">
+                <textarea id="textarea-dislike" type="date" placeholder="Какие недостатки вы отметили ?" required class="input" list="clinics-list"></textarea>
+              </div>
+              <div class="messages-wrapper">
+                <div class="messages__message error--text"></div>
+              </div>
+            </div>
+            <div class="form__field-wrapper">
+              <label for="review-number" class="label-input text_subtitle-1 text-grey">Номер телефона</label>
+              <div class="input-wrapper">
+                <input id="review-number" type="number" placeholder="+7" required class="input">
+              </div>
+              <div class="messages-wrapper">
+                <div class="messages__message error--text"></div>
+              </div>
+            </div>
+            <div class="review__submit-btn personal-area__btn-review-wrapper">
+              <button class="b-button-blue">Оставить отзыв</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
